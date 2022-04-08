@@ -13,7 +13,7 @@ int main(void)
 		toupper(c);
 	for (c = 'A'; c <= 'Z'; c++)
 		tolower(c);
-	putchar('\n');
+	
 	return (0);
 }
 
