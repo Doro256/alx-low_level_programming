@@ -10,9 +10,8 @@ int main(void)
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
-		toupper(c);
-	for (c = 'A'; c <= 'Z'; c++)
-		tolower(c);
+		putchar(c);
+	putchar('\n');
 	
 	return (0);
 }
