@@ -9,7 +9,7 @@
 int _isupper(int c);
 {
 
-	return (isupper(c));
+	return (c >= 'A' && c <= 'Z');
 }
 
 
