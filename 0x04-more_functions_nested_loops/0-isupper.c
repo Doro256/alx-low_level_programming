@@ -7,10 +7,9 @@
   */
 int main(void)
 {
-	char c;
+	char c = 'A';
 
 	return (isupper(c));
-	return (0);
 }
 
 
