@@ -10,7 +10,7 @@ void print_triangle(int size)
 
 	do {
 		_putchar('\n');
-	} while (size >= 0);
+	} while (size > 0);
 
 	for (i = 0; i < size; i++)
 	{
