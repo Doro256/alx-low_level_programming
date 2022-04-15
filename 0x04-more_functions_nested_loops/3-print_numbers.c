@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
   * print_numbers - prints the numbers, from 0 to 9
-  * _putchar - function to input character
   * numbers 0 to 9
   *Return:void
   */
