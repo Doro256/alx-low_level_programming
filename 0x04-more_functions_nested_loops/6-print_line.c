@@ -2,17 +2,18 @@
 /**
   * print_line - function that draws a straight line
   * Return: void
+  * @n: The number of '_' characters to use
   */
 
-void print_line(int n);
-
-int main(void)
+void print_line(int n)
 {
-	print_line(0);
-	print_line(2);
-	print_line(10);
-	print_line(-4);
-	return (0);
+	int i;
+
+	for (i = 0; i < n; i++)
+	{
+		_putchar('_');
+	}
+	_putchar('\n');
 }
 
 
