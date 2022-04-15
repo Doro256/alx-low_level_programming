@@ -6,11 +6,11 @@
   */
 void print_triangle(int size)
 {
-	int i, j, size;
+	int i, size;
 
 	while (size > 0)
 	{
-		for (i = 0; i < y; i++)
+		for (i = 0; i < size; i++)
 		{
 			_putchar((i < size - 1) ? ' ' : '#');
 		}
