@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int _putchar(char c);
 
 /**
   * print_number - prints an integer
