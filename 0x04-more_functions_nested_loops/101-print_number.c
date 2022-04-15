@@ -2,11 +2,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+int _putchar(char c);
 
 /**
-  * print_number - prints an integer
-  * Return: void
-  * @n: the integer
+  * print_number - like a hello world
+  * @n: params an integer
+  * No return
   */
 
 void print_number(int n)
