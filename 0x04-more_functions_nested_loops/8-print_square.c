@@ -1,10 +1,11 @@
 #include "main.h"
 /**
   * print_square - prints a square, followed by a new line
+  * @n: number of lines using '#' per row and column
   * Return:void
   */
 
-void print_square(int size)
+void print_square(int n)
 {
 	int i, j;
 
