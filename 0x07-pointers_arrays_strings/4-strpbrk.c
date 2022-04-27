@@ -1,25 +1,29 @@
 #include "main.h"
-
 /**
-  * _strpbrk - locates a character in a string
-  * @s: is a pointer type char
-  * @accept: is a pointer type char
-  * Return: The number of bytes repeated
+  * _strpbrk -  function locates the first occurrence in the string s
+  * of any of the bytes in the string accept
+  * @s: string 1
+  * @accept: string 2
+  * Return: pointer to the byte in s
+  * that matches one of the bytes in accept
+  * or NULL if no such byte is found
   */
+
 char *_strpbrk(char *s, char *accept)
 {
-	int i;
+	int k;
 
 	while (*s)
 	{
-		for (i = 0; accept[i]; i++)
+		for (k = 0; accept[k]; k++)
 		{
-			if (*s == accept[i])
+			if (*s == accept[k])
 			{
 				return (s);
 			}
 		}
 		s++;
 	}
-	return (NULL);
+	return ('\0');
 }
+
