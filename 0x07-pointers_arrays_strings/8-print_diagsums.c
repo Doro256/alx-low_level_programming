@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
-  * print_diagsums -  prints sums
+  * print_diagsums -  prints sum of two diagonals
+  * of square matrix of integers
   * @a: is a pointer type char
   * @size: is a variable type size
   * Return: Nothing
@@ -16,6 +17,5 @@ void print_diagsums(int *a, int size)
 		sum1 += *(a + (size * i + i));
 		sum2 += *(a + (size * i + size - 1 - i));
 	}
-	printf("%d, ", sum1);
-	printf("%d\n", sum2);
+	printf("%d, %d\n", sum1, sum2);
 }
