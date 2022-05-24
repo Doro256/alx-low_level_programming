@@ -2,9 +2,9 @@
 
 
 /**
-  * pop_listint - Delete the first element of a singly linked list.
+  * pop_listint - deletes the head node of linked list
+  * Return: the head node’s data (n)
   * @head: Pointer to a list
-  * Return: Integer if success.
   *
   */
 
