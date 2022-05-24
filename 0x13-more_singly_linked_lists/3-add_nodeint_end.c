@@ -1,4 +1,4 @@
-"include "lists.h"
+#include "lists.h"
 /**
 * add_nodeint_end - add new node at end of list
 * @head: address of first node of list
@@ -20,7 +20,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	/* if head is NULL, list is empty */
 	if(*head == NULL)
 	{
-		*head == temp1;
+		*head = temp1;
 		return (temp1);
 	}
 	else
@@ -34,9 +34,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		}
 
 		/* add new node at end of linked list */
-		temp2->next = temp;
-		return (temp);
+		temp2->next = temp1;
+		return (temp1);
 	}
 }
-
-
