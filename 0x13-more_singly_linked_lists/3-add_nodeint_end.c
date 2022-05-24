@@ -26,15 +26,14 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	else
 	{
 		temp2 = *head;
-
-		/* address of last node will be null */
-		while (temp2->next)
-		{
-			temp2 = temp2->next;
-		}
-
-		/* add new node at end of linked list */
-		temp2->next = temp1;
-		return (temp1);
 	}
+
+	/* address of last node will be null */
+	while (temp2->next)
+	{
+		temp2 = temp2->next;
+	}
+	/* add new node at end of linked list */
+	temp2->next = temp1;
+	return (temp1);
 }
