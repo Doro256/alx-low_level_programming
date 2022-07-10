@@ -9,7 +9,7 @@
 
 listint_t *reverse_listint(listint_t **head)
 {
-	listint_t  *next, *prev:
+	listint_t  *next, *prev;
 
 	next = NULL;
 
@@ -19,8 +19,7 @@ listint_t *reverse_listint(listint_t **head)
 		next = *head;
 		*head = (*head)->next = prev;
 	}
-	
-	*reverse = next
-	return (next)
+	*head = next
+	return (head)
 }
 
