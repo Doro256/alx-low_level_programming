@@ -5,7 +5,7 @@
   * @head: First node address.
   * Return: If success (1)
   *
- */
+  */
 
 listint_t *reverse_listint(listint_t **head)
 {
@@ -15,11 +15,11 @@ listint_t *reverse_listint(listint_t **head)
 
 	while (*head != NULL)
 	{
-		prev = next;
+		prev = NULL;
 		next = *head;
-		*head = (*head)->next = prev;
+		*head = (*head)->next
+		next->next = prev
 	}
-	*head = prev
+	*head = next
 	return (*head)
 }
-
